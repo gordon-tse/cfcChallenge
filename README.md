@@ -30,6 +30,13 @@ Gordon
 4. Find the output file `output.json` in the current directory.
 
 
+## Running unit test
+I have also created some unit tests for some core methods. These tests can be run as follow:
+
+
+`$ python -m unittest <Test class name>`
+
+
 ## Possible errors
 1. Fail to request the index page. The program will be exited at status code `1` following error message will be printed
 to the screen: 
