@@ -14,7 +14,7 @@ class HTMLParser:
     # Parameter: Iterable
     def append_wordlist(self, text):
         for word in text:
-            item = re.split("[\\s\xa0()\"”“1234567890,.:@!~|{}><©]", word)
+            item = re.split("[\\s\xa0()\"”“1234567890,.:;@!~|{}><©]", word)
             self.wordList.extend([each for each in item if each])
 
     def get_wordlist(self):
