@@ -3,19 +3,6 @@ Submitted by: Gordon Tse ([CV](https://drive.google.com/file/d/1Aygr-EMG8Fo79Pxn
 LinkedIn: [https://www.linkedin.com/in/gordon-tse/](https://www.linkedin.com/in/gordon-tse/) \
 Location: Bristol, United Kingdom (willing to relocate)
 
-## Thank you for giving me this opportunity
-Hi CFC team,
-
-Thank you very much for allowing me to complete this technical challenge. I hope I didn't misunderstand any requirements,
-and everything looks good to you. I'd like to take this opportunity to reiterate my passion for this role. I look forward to your favourable reply.
-
-I'd also be very grateful if I could hear some feedback
-from you regarding the code and my application.
-
-Hope to see you in the interview.
-
-Best regards,\
-Gordon
 
 ## Executing the program
 1. Make sure you are connected to the internet. The internet access is essential for installing missing dependencies and to 
