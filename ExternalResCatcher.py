@@ -3,8 +3,8 @@ class ExternalResCatcher:
     def __init__(self, soup):
         self.soup = soup
 
-    def is_externally_hosted(self, path):
-        # if it is a link to another page hosted under the domain -> False
+    def is_externally_hosted(self, path) -> bool:
+        # if it contains the CFC's domain name -> False
         if "cfcunderwriting.com" in path:
             return False
 

@@ -6,7 +6,7 @@ class WordFreqCounter:
 
     def count(self):
         if self.wordList is None:
-            return
+            return {}
         for word in self.wordList:
             word = word.lower()
             if word in self.wordFreq:

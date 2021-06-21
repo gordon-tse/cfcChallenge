@@ -1,43 +1,50 @@
 # CFC Insight Technical Challenge
 Submitted by: Gordon Tse ([CV](https://drive.google.com/file/d/1Aygr-EMG8Fo79PxnYerItKkZAfXi3Tf7/view?usp=sharing)) \
-Email: [gordonkingchun@gmail.com](gordonkingchun@gmail.com])\
-Phone: +44 7704 407185\
-LinkedIn: [https://www.linkedin.com/in/gordon-tse/](https://www.linkedin.com/in/gordon-tse/)
+LinkedIn: [https://www.linkedin.com/in/gordon-tse/](https://www.linkedin.com/in/gordon-tse/) \
+Location: Bristol, United Kingdom (willing to relocate)
 
 ## Thank you for giving me this opportunity
 Hi CFC team,
 
-Thank you very much for allowing me to complete this technical challenge. I hope I didn't misunderstand any requirements
-and everything looks good to you. I'd like to reiterate my passion for this role, and I look forward to your favourable 
-reply.
+Thank you very much for allowing me to complete this technical challenge. I hope I didn't misunderstand any requirements,
+and everything looks good to you. I'd like to take this opportunity to reiterate my passion for this role. I look forward to your favourable reply.
 
-I'd be very grateful if I could hear some feedback
-from you regarding to my application.
+I'd also be very grateful if I could hear some feedback
+from you regarding the code and my application.
+
+Hope to see you in the interview.
 
 Best regards,\
 Gordon
 
-## Execution procedures
-1. Make sure you have connected to the internet.
+## Executing the program
+1. Make sure you are connected to the internet. The internet access is essential for installing missing dependencies and to 
+requesting to the web page as required. 
 2. Install all the required dependencies.
 
    `$ pip install -r requirements.txt`
 
-3. Execute the main driver code `main.py`.
+3. Execute the driver code `main.py`.
 
     `$ python main.py`
     
 4. Find the output file `output.json` in the current directory.
 
+## The output.json
+It can be found in the working directory after executing `main.py` successfully. This is a single `.json` file containing arrays of externally hosted resources grouped by its html tag and a json object 
+of all the word frequency counts.
 
-## Running unit test
+Note: The word frequency counting is case-insensitive and includes visible texts in drop down menus, as required. It is 
+displayed as `"[word]": [frequency]`
+
+## Running unit tests
 I have also created some unit tests for some core methods. These tests can be run as follow:
 
 
 `$ python -m unittest <Test class name>`
 
 
-## Possible errors
+## Possible checked errors
 1. Fail to request the index page. The program will be exited at status code `1` following error message will be printed
 to the screen: 
 
@@ -47,4 +54,9 @@ to the screen:
 to the screen: 
 
     `Privacy policy not found`
+    
+3. Fail to open or write to the output file. The program will be exited at status code `1` following error message will be printed
+to the screen: 
+
+    `Cannot open or write to a file`
 

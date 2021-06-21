@@ -45,7 +45,11 @@ if __name__ == '__main__':
 
     # Write to a json file
     dir = os.path.realpath(os.curdir) + "/"
-    with open(dir + "output.json", "w") as outfile:
-        json.dump(outdict, outfile)
+    try:
+        with open(dir + "output.json", "w") as outfile:
+            json.dump(outdict, outfile)
+    except IOError:
+        print("Cannot open or write to a file")
+        exit(1)
 
 
